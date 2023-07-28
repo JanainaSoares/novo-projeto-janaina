@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image" href="./assets/img/favicon.ico">
+    <title>Site Receitas do Fla & da Jana</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./assets/img/sobre.png" alt="Imagem Responsiva" class="imagem-responsiva">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="carnes.html" class="nav-link">Carnes</a></li>
+                    <li class="nav-item"><a href="massas.html" class="nav-link">Massas</a></li>
+                    <li class="nav-item"><a href="saladas.html" class="nav-link">Saladas</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="contato.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="carnes.html" class="nav-link">Carnes</a></li>
+                <li class="nav-item"><a href="massas.html" class="nav-link">Massas</a></li>
+                <li class="nav-item"><a href="saladas.html" class="nav-link">Saladas</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="contato.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="imgContato" >
+        <img src="./assets/img/contato.png" alt="imagem de contato">
+        <h3>Iremos adorar receber um recado ou ate mesmo uma receita de familia...</h3>
+        <h3>afinal boas receitas sempre devem ser compartilhadas...</h3>
+
+    </div>
+    <form class="formulario"  action="https://formsubmit.co/ajax/janaina.a.soares@hotmai.com" method="POST" data-form>
+        <label for="nome">Nome</label><input type="text" name="nome" id="nome" required />
+        <label for="email">Email</label><input type="email" name="email" id="email" required />
+        <label for="mensagem">Mensagem</label><textarea name="mensagem" id="mensagem" required></textarea>
+        <button type="submit" data-button>Enviar</button>
+    </form>
+
+    <script src="./assets/js/script.js"></script>
+
+    <footer class="rodape">
+        <p>Copyright &copy; 2023 - by Janaina Antonia<br>
+            <img src="./assets/img/fb.png"><a href="https://www.google.com" targer="_blank">Facebook</a> |
+            <img src="./assets/img/twt.png"><a href="https://www.google.com.br" target="_blank"> Twitter</a>
+        </p>
+    </footer>
+</body>
+
+</html>
