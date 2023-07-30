@@ -235,6 +235,23 @@ header {
     line-height: 1.5;
 }
 
+.massasmacarrao img {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.massasmacarrao h3 p ul {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: none;
+    padding: 20px 0;
+}
+
 /*Rodape*/
 .rodape {
     text-align: center;
