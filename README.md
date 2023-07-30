@@ -45,7 +45,7 @@ Footer
 
 Estrutura do projeto
 
-***print***
+<img src="./assets/img/estruturasite.jpeg" alt="print do vscode" width="200">
 
 Tecnologia usadas
 HTML
