@@ -163,7 +163,15 @@ header {
 
 /* css carnes */
 
-.carnescapa img {
+/* .container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  */
+
+ .carnescapa img {
     width: 100%;
     height: 500px;
     align-items: center;
@@ -175,7 +183,7 @@ header {
 
 .carnescapa h3 p {
     text-align: center;
-    align-items: center;
+    align-items: center; 
     width: 100%;
     padding: 3rem;
     font-size: 1.2em;
@@ -184,14 +192,14 @@ header {
 
 .carnesfraldinha img {
     display: flex;
-     align-items: center;
+    align-items: center; 
     width: 400px;
     height: 300px;
 }
 
 .carnesfraldinha h3 p ul {
     text-align: center;
-    align-items: center;
+    align-items: center; 
     width: 100%;
     font-size: 1.2em;
     line-height: 1.5;
@@ -208,7 +216,7 @@ header {
 
 .carneslagarto h3 p ul {
     text-align: center;
-    align-items: center;
+    align-items: center; 
     width: 100%;
     font-size: 1.2em;
     line-height: 1.5;
@@ -243,6 +251,59 @@ header {
 }
 
 .massasmacarrao h3 p ul {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: none;
+    padding: 20px 0;
+}
+
+/* css saladas */
+.saladascapa img {
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    margin-right: 10px;
+    display: flex;
+}
+
+.saladascapa h3 p {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: .1rem;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.saladasrepolho img {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.saladasrepolho h3 p ul {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: none;
+    padding: 20px 0;
+}
+
+.saladasberinjela img {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.saladasberinjela h3 p ul {
     text-align: center;
     align-items: center;
     width: 100%;

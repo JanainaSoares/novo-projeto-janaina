@@ -25,6 +25,8 @@ Bem-vindo(a) ao nosso Site Receitas do Fla & da Jana! Este é um guia rápido pa
 
 Vem conferir o resultado final:
 
+Conheça o meu site [link](https://gregarious-dusk-489da4.netlify.app) 
+
 https:
 
 O site possui 6 páginas:
