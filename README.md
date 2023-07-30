@@ -98,7 +98,7 @@ Siga os passos e inclua as informações abaixo:
 
 Proximos passos
 
-Terminar de desenvolver o site e acrecentar novas receitas e maneiras de reaproveitar os alimentos.
+Terminar de desenvolver o site colocando responsividade e acrecentar novas receitas e maneiras de reaproveitar os alimentos.
 
 Desenvolvido com💜
 

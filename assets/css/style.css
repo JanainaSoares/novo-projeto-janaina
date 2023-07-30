@@ -161,6 +161,61 @@ header {
 
 }
 
+/* css carnes */
+
+.carnescapa img {
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    margin-right: 10px;
+    display: flex;
+
+}
+
+.carnescapa h3 p {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.carnesfraldinha img {
+    display: flex;
+     align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.carnesfraldinha h3 p ul {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: none;
+    padding: 20px 0;
+}
+
+.carneslagarto img {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.carneslagarto h3 p ul {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: none;
+    padding: 20px 0;
+}
+
 /*Rodape*/
 .rodape {
     text-align: center;
